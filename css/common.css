@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?kdven9');
+    src:  url('../fonts/icomoon.eot?kdven9#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?kdven9') format('truetype'),
+      url('../fonts/icomoon.woff?kdven9') format('woff'),
+      url('../fonts/icomoon.svg?kdven9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.section {
+    height: 31px;
+    background-color: #f1f1f1;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.shortcut  li {
+    float: left;
+    line-height: 31px;
+    font-size: 12px;
+    color: #666;
+}
+.fl {
+    float: left;
+}
+ .fr {
+    float: right;
+ }
+.style_red {
+    color: #c81623;
+}
+.shortcut .fr li:nth-child(2n) {
+    height: 12px;
+    width: 1px;
+    background-color: #666;
+    margin: 9px 16px;
+}
+.arrow-icon::after {
+    content: "\e900";
+    font-family: "icomoon";
+    margin-left: 5px;
+}
+header {
+    position: relative;
+    height: 105px;
+}
+.logo {
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    float: left;
+    width: 172px;
+    height: 57px;
+}
+.logo a {
+    display: block;
+    width: 172px;
+    height: 57px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: auto 61px;
+    font-size: 0;
+}
+.search {
+    position: absolute;
+    top: 25px;
+    left: 345px;
+    width: 538px;
+    height: 35px;
+}
+.search input {
+    width: 456px;
+    height: 35px;
+    border: 2px solid #b11906;
+    padding-left: 10px;
+}
+.search button {
+    float: right;
+    height: 35px;
+    width: 82px;
+    background-color: #b11906;
+    font-size: 16px;
+    color: #fff;
+}
+.hw {
+    position: absolute;
+    top: 66px;
+    left: 345px;
+}
+.hw a {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #666;
+}
+.sc {
+    position: absolute;
+    top: 25px;
+    right: 62px;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    font-size: 12px;
+    color: #666;
+    background-color: #f7f7f7;
+}
+.sc::after {
+    content: "\e901";
+    font-family: "icomoon";
+    margin-left: 3px;
+}
+.sc::before {
+    content: "\e902";
+    font-family: "icomoon";
+    margin-right: 3px;
+    color: #b11906;
+}
+.sc .count {
+    position: absolute;
+    right: 18px;
+    top: -4px;
+    height: 12px;
+    width: 16px;
+    line-height: 12px;
+    text-align: center;
+    background-color: #b11906;
+    color: #fff;
+    border-radius: 12px 12px 12px 0;
+}
+.nav {
+    height: 46px;
+    border-bottom: 2px solid #b1191a;
+}
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+.nav .navitems {
+    float: left;
+}
+
+.dropdown .dt {
+    height: 100%;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    }
+ .dropdown .dd {
+    height: 465px;
+    width: 210px;
+    background-color: #c81623;
+}
+.dd ul {
+    margin-left: 5px;
+}
+.dd ul li {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    margin: 1px 0;
+    padding-left: 10px;
+}
+.dd ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+.dd ul li::after {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    content: "\e901";
+    font-family: "icomoon";
+    color: #fff;
+}
+.dd ul li:hover {
+    background-color: #f7f7f7;
+}
+.dd ul li:hover a {
+    color: #c81623;
+}
+.navitems li {
+    float: left;
+}
+.navitems li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #333333;
+    padding: 0px 25px;
+}
+.footer {
+    margin-top: 50px;
+    height: 417px;
+    background-color: #f5f5f5;
+}
+.top {
+    padding-top: 30px;
+    width: 1200px;
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+    background-color: #f5f5f5;
+}
+
+.top li {
+    float: left;
+    padding-left: 35px;
+    width: 240px;
+    height: 50px;
+}
+.top li h5 {
+    float: left;
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+}
+.top li .qw {
+    background: url(../images/icons.png) no-repeat -252px -3px;
+}
+.top li .qe {
+    background: url(../images/icons.png) no-repeat -254px -54px;
+}
+.top li .qr {
+    background: url(../images/icons.png) no-repeat -256px -106px; 
+}
+.top li .qt {
+    background: url(../images/icons.png) no-repeat -257px -157px;
+}
+.top li .qy {
+    background: url(../images/icons.png) no-repeat -256px -209px;
+}
+.top li h4 {
+    font-size: 14px;
+    color: #333;
+}
+.top li p {
+    font-size: 12px;
+    color: #666;
+}
+.top li .gg {
+    margin-top: 7px;
+}
+.bottom {
+    height: 188px;
+    border-bottom: 1px solid #ededed;
+}
+.bottom dl {
+    margin-top: 25px;
+    float: left;
+    width: 200PX;
+    padding-left: 50px;
+}
+.bottom dl dt {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.bottom dl dd {
+    font-size: 12px;
+    color: #666;
+}
+.bottom dl:last-child {
+    text-align: center;
+}
+.bt {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.bt ul {
+    margin: 0 90px;
+}
+.bt li {
+    float: left;
+    margin-top: 20px;
+    border-right: 1px solid #999;
+}
+.bt li a {
+    padding: 0 15px;
+}
+.bt li:last-child {
+    border-right: none;
+}
+.btt {
+    margin-top: 15px;
+}

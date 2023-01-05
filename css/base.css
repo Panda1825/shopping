@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+em,
+i {
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+input {
+    outline: none;
+}
+button {
+    cursor: pointer;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+body {
+    background-color: #fff;
+
+}
+.clearfix:after,.clearfix:before{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}

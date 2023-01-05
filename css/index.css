@@ -1,0 +1,300 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+.focus ul li {
+    float: left;
+}
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+}
+.arrow-r {
+    right: 0;
+}
+.focus img {
+    height: 100%;
+    width: 100%;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.news {
+    font-size: 12px;
+    color: #333;
+    height: 165px;
+   border: 1px solid #e4e4e4;
+}
+.news-hd {
+    font-weight: 400;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+}
+.news-hd .more {
+    float: right;
+}
+.news-hd .more::after {
+    font-family: 'icomoon';
+    content: '\e901';
+}
+.news-bd {
+    padding: 0 15px;
+}
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lifeservice {
+    position: relative;
+    height: 209px;
+    width: 250px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    border-bottom: 0;
+}
+.lifeservice ul li {
+    float: left;
+    overflow: hidden;
+    width: 62px;
+    height: 70px;
+    font-size: 12px;
+    color: #333;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+
+}
+.lifeservice ul li:nth-child(4n) {
+    border-right: 0;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+.lifeservice ul li span {
+    background: url(../upload/jian.jpg) no-repeat ;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 124px;
+    width: 12px;
+    height: 15px;
+}
+.lifeservice ul li .huafei {
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.lifeservice ul li .jipiao {
+    background: url(../images/icons.png) no-repeat -80px -17px;
+}
+.lifeservice ul li .dianyingpiao {
+    background: url(../images/icons.png) no-repeat -142px -16px;
+}
+.lifeservice ul li .youxi {
+    background: url(../images/icons.png) no-repeat -205px -15px;
+}
+.lifeservice ul li .caipiao {
+    background: url(../images/icons.png) no-repeat -17px -89px;
+}
+.lifeservice ul li .jiayouzhan {
+    background: url(../images/icons.png) no-repeat -79px -86px;
+}
+.lifeservice ul li .jiudian {
+    background: url(../images/icons.png) no-repeat -146px -88px;
+}
+.lifeservice ul li .huochepiao {
+    background: url(../images/icons.png) no-repeat -210px -87px;
+}
+.lifeservice ul li .zhongchou {
+    background: url(../images/icons.png) no-repeat -16px -159px;
+}
+.lifeservice ul li .licai {
+    background: url(../images/icons.png) no-repeat -79px -159px;
+}
+.lifeservice ul li .lipinka {
+    background: url(../images/icons.png) no-repeat -143px -160px;
+}
+.lifeservice ul li .baitiao {
+    background: url(../images/icons.png) no-repeat -207px -161px;
+}
+.bargain {
+    margin-top: 5px;
+}
+.recom {
+    float: left;
+    margin-top: 10px;
+    background: url(../images/recom.png)  no-repeat center;
+    width: 206px;
+    height: 163px;
+    background-color: #5c5251;
+}
+.w .recommend {
+    float: left;
+    margin-top: 10px;
+    border-right: 1px solid #dddddd;
+    width: 248px;
+    height: 163px;
+}
+.w .recommend:nth-child(5) {
+    border-right: none;
+}
+.w .recommend img {
+    height: 100%;
+    width: 100%;
+}
+.w .floor_hd {
+    margin-top: 17px;
+    height: 43px;
+    line-height: 43px;
+    border-bottom: 2px solid #c81623;
+
+}
+.w .floor_hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+
+}
+.w .floor_hd ul {
+    margin-left: 510px;
+}
+.w .floor_hd li {
+    float: left;
+    font-size: 12px;
+}
+.w .floor_hd li a {
+    padding: 0 16px;
+    border-right: 1px solid #999;
+}
+.w .floor_hd li .none {
+    border-right: none;
+}
+.floor_bd {
+    height: 360px;
+    background-color: #f9f9f9;
+}
+.floor_l {
+    float: left;
+    width: 210px;
+}
+.floor_l li {
+    float: left;
+    margin-right: 12px;
+    width: 88px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    border-bottom: 1px solid #ededed;
+}
+.floor_l a img {
+    height: 100%;
+    width: 100%;
+}
+.floor_a {
+    float: left;
+}
+.floor_b {
+    float: left;
+    width: 220px;
+    border-right: 1px solid #ededed;
+}
+.floor_c {
+    border-bottom: 1px solid #ededed;
+}
+.floor_e {
+    float: left;
+    border-right: 1px solid #ededed;
+} 
+.floor_f{
+    float:left;
+}
+.floor_g {
+    border-bottom: 1px solid #ededed;
+}
+.fixed {
+    position: fixed;
+    top: 200px;
+    left: 80px;
+    width: 66px;
+    height: 124px;
+}
+.fixed li {
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+}
+.fixed li a {
+    font-size: 12px;
+    color: #666;
+}
+.fixed li:hover a {
+    color: #fff;
+}
+.fixed li:hover {
+    background-color: #c81623;
+}
